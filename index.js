@@ -1,9 +1,18 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  let newPalindrome = word.split("").reverse().join("")
+  if (word === newPalindrome){
+    return true
+  }
+  else{
+    return false
+  }
 }
 
 /* 
   Add your pseudocode here
+    assigned newPalindrome to be word so that i work with my values,
+  then i returned true if condition is true and return else if the condition is false.
 */
 
 /*
